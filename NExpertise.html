@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta circle="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <link rel="mask-icon" type="" href="images/hlogo.png" color="#111" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/hlogo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
+    <link rel='stylesheet' href='css/dcss.css'>
+    <title>Himanshu's Portfolio</title>
+    <style>
+        .container {
+            font-family: consolas;
+            width: 900px;
+            position: fixed;
+            display: grid;
+            grid-template-columns: auto auto;
+            left: 20px;
+            top: 70px;
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .container {
+                top: 90px;
+                left: 80px;
+            }
+        }
+        
+        .container .card {
+            position: relative;
+            cursor: pointer;
+            padding-left: 20px;
+            margin-bottom: -90px;
+        }
+        
+        .container .card .face {
+            width: 300px;
+            height: 200px;
+            transition: 0.5s;
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .container .card .face {
+                width: 200px;
+                height: 100px;
+            }
+        }
+        
+        .container .card .face.face1 {
+            position: relative;
+            background: #101010;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            transform: translateY(50px);
+            box-shadow: 0 8px 32px 0 rgba(17, 17, 17, 0.37);
+            backdrop-filter: blur( 20.0px);
+        }
+        
+        .container .card:hover .face.face1 {
+            background: #ff0057;
+            transform: translateY(0);
+        }
+        
+        .container .card .face.face1 .content {
+            opacity: 0.5;
+            transition: 0.5s;
+        }
+        
+        .container .card:hover .face.face1 .content {
+            opacity: 1;
+        }
+        
+        .container .card .face.face1 .content img {
+            max-width: 100px;
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .container .card .face.face1 .content img {
+                max-width: 60px;
+            }
+        }
+        
+        .container .card .face.face1 .content h3 {
+            margin: 10px 0 0;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        
+        .container .card .face.face2 {
+            position: relative;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+            transform: translateY(-150px);
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .container .card .face.face2 {
+                transform: translateY(-50px);
+            }
+        }
+        
+        .container .card:hover .face.face2 {
+            transform: translateY(0);
+        }
+        
+        .container .card .face.face2 .content p {
+            margin: 0;
+            padding: 0;
+            color: #101010;
+        }
+        
+        .image {
+            position: absolute;
+            wclassth: 699px;
+            height: 699px;
+            left: 800px;
+            top: 30px;
+            overflow: visible;
+            z-index: -1;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .image {
+                width: 0px;
+                height: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="Nindex.html">
+        <div class="Name">
+            <span>Himanshu Mukane</span>
+        </div>
+    </a>
+    <a href="Expertise.html"><img class="night_mode" src="images/day_mode.png"></a>
+    <a href="NAbout.html">
+        <div class="About">
+            <span data-aos="fade-up">About Me</span>
+        </div>
+    </a>
+    <a href="NExpertise.html">
+        <div class="Expertise">
+            <span data-aos="fade-up">Expertise</span>
+        </div>
+    </a>
+    <a href="NSkills.html">
+        <div class="Skills">
+            <span data-aos="fade-up">Skills</span>
+        </div>
+    </a>
+    <a href="NContact.html">
+        <div class="Contact">
+            <span>Say Hi</span>
+        </div>
+    </a>
+    <a href="NDesigns.html">
+        <div class="Designs">
+            <span>UI/UX Designs</span>
+        </div>
+    </a>
+    <a href="NProjects.html">
+        <div class="projects">
+            <span>Projects</span>
+        </div>
+    </a>
+
+
+    <div id="hero">
+        <div class="container" data-aos="fade-up">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/ddesign.png">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/dcode.png">
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/ddesign.png">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="images/dcode.png">
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="image" data-aos="fade-left" src="images/2.png">
+        <img class="circle" src="images/dcircle.png">
+    </div>
+
+
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+    <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+    <script src='Javascript/js.js'></script>
+
+</body>
+
+</html>
