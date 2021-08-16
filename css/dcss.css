@@ -1,0 +1,154 @@
+body {
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(16, 16, 16, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#hero {
+    position: absolute;
+}
+
+.line {
+    height: 4px;
+    width: 400px;
+}
+
+hr {
+    margin-top: 10px;
+    padding: 2px 0;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+.circle {
+    position: absolute;
+    wclassth: 900px;
+    height: 900px;
+    left: 980px;
+    top: -10px;
+    overflow: visible;
+    z-index: -2;
+}
+
+.Name {
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    wclassth: 325px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.night_mode {
+    position: absolute;
+    height: 50px;
+    left: 50%;
+    top: 15px;
+}
+
+.About {
+    transform: rotate(270deg);
+    transform-origin: center;
+    right: 3px;
+    top: 50%;
+    position: absolute;
+    wclassth: 164px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Expertise {
+    transform: rotate(270deg);
+    transform-origin: center;
+    right: 3px;
+    bottom: 30%;
+    position: absolute;
+    wclassth: 172px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Skills {
+    transform: rotate(270deg);
+    transform-origin: center;
+    right: 25px;
+    top: 35%;
+    position: absolute;
+    wclassth: 110px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Contact {
+    right: 30px;
+    top: 30px;
+    position: absolute;
+    overflow: visible;
+    wclassth: 141px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.Designs {
+    right: 30px;
+    bottom: 30px;
+    position: absolute;
+    overflow: visible;
+    wclassth: 253px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.projects {
+    left: 30px;
+    bottom: 30px;
+    position: absolute;
+    overflow: visible;
+    wclassth: 159px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+}
